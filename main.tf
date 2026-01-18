@@ -31,7 +31,7 @@ resource "random_integer" "replica_count" {
   max = 7
 }
 
-resource "random_integer" "replica_count" {
+resource "random_integer" "replica_count-1" {
   min = 1
   max = 9
 }
