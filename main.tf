@@ -31,6 +31,10 @@ resource "random_integer" "replica_count" {
   max = 7
 }
 
+resource "random_integer" "replica_count" {
+  min = 1
+  max = 9
+}
 # 4–6: local files
 resource "local_file" "config" {
   filename = "${path.module}/config.txt"
