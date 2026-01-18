@@ -28,7 +28,7 @@ resource "random_pet" "env_name" {
 
 resource "random_integer" "replica_count" {
   min = 1
-  max = 5
+  max = 7
 }
 
 # 4–6: local files
